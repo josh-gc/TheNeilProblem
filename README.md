@@ -25,8 +25,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Note: I created a .env file with an OpenAI API key but it worked without it so `¯\_(ツ)_/¯`
-
 ## The words:
 
 [Thesaurus.com](https://www.thesaurus.com/browse/large) was used with the search word large to get a list of words to use. The strongest matches and opposites were used for the 'sizeWords' array in [getVectorEncoding](getVectorEncoding.py). Poor and Populous were removed because they caused unsatisfactory results. Words can be added or removed from this list then rerun to test other words.
@@ -40,3 +38,44 @@ The file encodes all the words and then saves them in [size_words_embeddings.jso
 1. Determines the extreme values
 2. Projects all the other words on the line between those two words
 3. Returns the ordered list of Neils
+
+# The Results
+
+1. Immense Neil
+2. Enormous Neil
+3. Massive Neil
+4. Gigantic Neil
+5. Vast Neil
+6. Huge Neil
+7. Giant Neil
+8. Grand Neil
+9. Generous Neil
+10. Extensive Neil
+11. Sizable Neil
+12. Spacious Neil
+13. Considerable Neil
+14. Great Neil
+15. Hefty Neil
+16. Wide Neil
+17. Inconsiderable Neil
+18. Insignificant Neil
+19. Broad Neil
+20. Substantial Neil
+21. Empty Neil
+22. Full Neil
+23. Unimportant Neil
+24. Cramped Neil
+25. Miniscule Neil
+26. Restricted Neil
+27. Teeny Neil
+28. Limited Neil
+29. Dwarf Neil
+30. Miniature Neil
+31. Narrow Neil
+32. Minute Neil
+33. Slight Neil
+34. Tiny Neil
+35. Minor Neil
+36. Little Neil
+37. Small Neil
+38. Short Neil

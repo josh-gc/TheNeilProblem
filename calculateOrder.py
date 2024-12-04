@@ -4,6 +4,7 @@ from scipy.spatial.distance import cosine
 from scipy.spatial.distance import euclidean
 
 # Load the embeddings from the JSON file
+print("Loading embeddings from JSON file...")
 input_file = "size_words_embeddings.json"
 with open(input_file, "r") as f:
     embeddings = json.load(f)
@@ -47,6 +48,6 @@ sorted_mapped_words = dict(sorted(mapped_words.items(), key=lambda item: item[1]
 
 # Print the scaled mapping
 print("Words mapped to a linear scale:")
-for word, projection in sorted_mapped_words.items():
-    print(f"{word.capitalize()} Neil")
+for idx, (word, projection) in enumerate(sorted_mapped_words.items(), start=1):
+    print(f"{idx}. {word.capitalize()} Neil")
 
