@@ -8,6 +8,7 @@ from openai import OpenAI
 import json
 
 # This API Key has a usage limit of $1 which is plenty since these embeddings cost nothing. Don't be the reason we can't have nice things and use it elsewhere.
+# This key is dissabled and will not work because someone used it for something else. Only cost me $1 and my trust in humanity.
 OPENAI_API_KEY="sk-svcacct-4z0dtrSzbLi1r1HOBl4hRWwFGngZTdRhTaXoqA2lmoCCvGIXpPRZHDRFPnILjwWgL5oIT3BlbkFJO5QW1AEb-CQIm7c3yz6nc01UDZhNqQ3hCv5Dz6w78V56Hl9ZsqvMTruCyDE1amF09V4A"
 client = OpenAI(api_key=OPENAI_API_KEY)
 
